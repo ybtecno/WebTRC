@@ -511,7 +511,7 @@ body {
   --------------------------------*/
   .section-header h3 {
     font-size: 32px;
-    color: #730404;
+    color: #096b15;
     text-transform: uppercase;
     text-align: center;
     font-weight: 700;
@@ -562,6 +562,18 @@ body {
   #featured-services .box {
     padding: 30px 20px;
   }
+
+  #featured-services .logo img {
+    width: 75px;
+  }
+
+  #featured-services .sede img {
+    width: 100px;
+  }
+
+  #featured-services .sociales img {
+    width: 110px;
+  }
   
   #featured-services .box-bg {
     background-image: linear-gradient(0deg, #000000 0%, #242323 50%, #000000 100%);
@@ -585,7 +597,7 @@ body {
   }
   
   #featured-services h4 a:hover {
-    color: #2a72ed;
+    color: #096b15;
   }
   
   #featured-services p {
@@ -641,7 +653,7 @@ body {
     padding-top: 8px;
     text-align: center;
     position: absolute;
-    background-color: #730404;
+    background-color: #096b15;
     border-radius: 50%;
     text-align: center;
     border: 4px solid #fff;
