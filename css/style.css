@@ -96,7 +96,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1;
-    font-family: "Times", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 700;
     letter-spacing: 3px;
   }
@@ -351,7 +351,7 @@ body {
   }
   
   .nav-menu li:hover > a, .nav-menu > .menu-active > a {
-    color: #096b15;
+    color: #18d26e;
   }
   
   .nav-menu > li {
@@ -371,7 +371,7 @@ body {
   
   .nav-menu ul li a {
     padding: 10px;
-    color: #333;
+    color: white;
     transition: 0.3s;
     display: block;
     font-size: 13px;
@@ -379,7 +379,7 @@ body {
   }
   
   .nav-menu ul li:hover > a {
-    color: #2a72ed;
+    color: #18d26e;
   }
   
   .nav-menu ul ul {
@@ -589,11 +589,12 @@ body {
   #featured-services h4 {
     font-weight: 400;
     margin: 15px 0;
-    font-size: 18px;
+    font-size: 22px;
   }
   
   #featured-services h4 a {
     color: #fff;
+    color: #18d26e;
   }
   
   #featured-services h4 a:hover {
@@ -601,7 +602,7 @@ body {
   }
   
   #featured-services p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     color: #fff;
     margin-bottom: 0;
@@ -610,7 +611,7 @@ body {
   /* About Us Section
   --------------------------------*/
   #about {
-    background: url("../img/about-bg.jpg") center top no-repeat fixed;
+    background: url("../img/about-bg.png") center top no-repeat fixed;
     background-size: cover;
     padding: 60px 0 40px 0;
     position: relative;
@@ -711,7 +712,7 @@ body {
   }
   
   #services .box {
-    margin-bottom: 30px;
+    margin: 30px 0;
   }
   
   #services .icon {
@@ -729,11 +730,11 @@ body {
     margin-left: 60px;
     font-weight: 700;
     margin-bottom: 15px;
-    font-size: 18px;
+    font-size: 20px;
   }
   
-  #services .title a {
-    color: #111;
+  #services .title {
+    color: #096b15;
   }
   
   #services .box:hover .title a {
@@ -741,10 +742,18 @@ body {
   }
   
   #services .description {
-    font-size: 14px;
-    margin-left: 60px;
-    line-height: 24px;
+    font-size: 16px;
     margin-bottom: 0;
+    text-align: justify;
+    border-bottom: solid 2px #096b15;
+    padding: 10px 0;
+  }
+  #services .description .btn {
+    background: transparent;
+  }
+  #services .description .btn:hover {
+    color: #18d26e;
+    background: #000;
   }
   
   /* Call To Action Section
