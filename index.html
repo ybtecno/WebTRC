@@ -7,9 +7,25 @@
   <meta content="" name="keywords">
   <meta content="" name="description">
 
+  <!-- Color de la aplicacion -->
+  <meta name="theme-color" content="#1dc8cd"/>
+
+  <!-- Optimizacion para movil -->
+  <meta name="MobileOptimized" content="width"/>
+  <meta name="HandheldFriendly" content="true"/>
+  <meta name="mobile-web-app-capable" content="yes">
+
+  <!-- Meta etiquetas PWA para Apple -->
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+
   <!-- Favicons -->
   <link href="img/favicon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="apple-touch-startup-image" href="img/favicon.png">
+
+  <!-- Configuarcion General PWA -->
+  <link rel="manifest" href="manifest.json">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
@@ -53,7 +69,7 @@
                     <li><a href="#">Instalaciones</a></li>         
                 </ul>
                 </li>
-                <li class="menu-has-children"><a href="#services">Actividades Deportivas</a>
+                <li class="menu-has-children"><a href="#services">Act. Deportivas</a>
                 <ul>
                     <li><a href="#">Rugby</a></li>
                     <li><a href="#">Hockey</a></li>
@@ -228,9 +244,9 @@
                 <img src="img/about-vision.jpg" alt="" class="img-fluid">
                 <div class="icon"><i class="ion-ios-people-outline"></i></div>
               </div>
-              <h2 class="title"><a href="#">Comisión Directiva</a></h2>
+              <h2 class="title"><a href="#">Calendario Deportivo</a></h2>
               <p>
-                Como está compuesta la toda la comisión de nuestro club actualmente.
+                Todas las actividades deportivas del fin de semana.
               </p>
               <button type="button" class="btn btn-primary ml-2 mb-2">Enterate</button>
             </div>
@@ -268,38 +284,25 @@
 
         <div class="row">
 
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-            <div class="icon"><img src="img/golfportada.png" width="50" alt=""></div>
-            <h4 class="title"><a href="">Golf</a></h4>
-            
-            <p class="description">Toda la información del <strong><mark>GOLF</mark></strong> la podras encontrar aquí, nuestras canchas, resultados de los torneos, próximos eventos, handicap...
-            <button class="btn btn-outline-success btn-sm" type="button">Vamos</button></p>
-          </div>
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-            <div class="icon"><img src="img/hipicoportada.png" width="40" alt=""></div>
-            <h4 class="title"><a href="">Hípico</a></h4>
-            <p class="description">Toda la información del <strong><mark>HÍPICO</mark></strong> la podras encontrar aquí, nuestros servicios, resultados de los torneos, próximos eventos...
-            <button class="btn btn-outline-success btn-sm" type="button">Vamos</button></p>
-          </div>
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+          <div class="col-lg-3 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
             <div class="icon"><img src="img/rugby2.png" width="40" alt=""></div>
             <h4 class="title"><a href="">Rugby</a></h4>
             <p class="description">Toda la información del <strong><mark>RUGBY</mark></strong> la podras encontrar aquí, resultados y próximos partidos, actividades, horarios, equipo...
               <button class="btn btn-outline-success btn-sm" type="button">Vamos</button></p>
           </div>
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+          <div class="col-lg-3 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="icon"><img src="img/hockeyportada.png" width="40" alt=""></div>
             <h4 class="title"><a href="">Hockey</a></h4>
             <p class="description">Toda la información del <strong><mark>HOCKEY</mark></strong> la podras encontrar aquí, resultados y próximos partidos, actividades, horarios, equipo...
               <button class="btn btn-outline-success btn-sm" type="button">Vamos</button></p>
           </div>
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+          <div class="col-lg-3 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="icon"><img src="img/tenis01.png" width="40" alt=""></div>
             <h4 class="title"><a href="">Tenis</a></h4>
             <p class="description">Toda la información del <strong><mark>TENIS</mark></strong> la podras encontrar aquí, resultados y próximos torneos, actividades, horarios, equipo profesores, PROSHOP...
               <button class="btn btn-outline-success btn-sm" type="button">Vamos</button></p>
           </div>
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+          <div class="col-lg-3 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="icon"><img src="img/futbolportada.png" width="40" alt=""></div>
             <h4 class="title"><a href="">Fútbol</a></h4>
             <p class="description">Toda la información del <strong><mark>FÚTBOL</mark></strong> la podras encontrar aquí, resultados y próximos partidos, actividades, horarios, escuela...
@@ -957,7 +960,7 @@
   <script src="contactform/contactform.js"></script>
 
   <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
+  <script src="main.js"></script>
 
 </body>
 </html>
