@@ -924,9 +924,9 @@ body {
   }
   
   #portfolio .portfolio-item figure {
-    background: #000;
+    background: #096b15;
     overflow: hidden;
-    height: 240px;
+    height: 230px;
     position: relative;
     border-radius: 4px 4px 0 0;
     margin: 0;
