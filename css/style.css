@@ -987,8 +987,8 @@ body {
   #portfolio .portfolio-item .portfolio-info {
     background: #fff;
     text-align: center;
-    padding: 30px;
-    height: 90px;
+    padding: 20px 5px;
+    height: 100px;
     border-radius: 0 0 3px 3px;
   }
   
@@ -1011,10 +1011,10 @@ body {
   #portfolio .portfolio-item .portfolio-info p {
     padding: 0;
     margin: 0;
-    color: #b8b8b8;
+    color: #096b15;
     font-weight: 500;
     font-size: 14px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
   }
   
   /* Clients Section
