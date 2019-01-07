@@ -102,9 +102,14 @@ body {
   }
   
   #header #logo h1 a, #header #logo h1 a:hover {
-    color: #fff;
+    /* color: #fff; */
     padding-left: 10px;
     border-left: 6px solid #096b15;
+    background: -webkit-linear-gradient(green,white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;  
+    
   }
  
   #header #logo img {
