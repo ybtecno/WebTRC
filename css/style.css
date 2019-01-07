@@ -1480,3 +1480,34 @@ body {
     color: #ddd;
   }
   
+  /*--------------------------------------------------------------
+  # Comunicados
+  --------------------------------------------------------------*/
+  .comunicados #logo h1 a {
+    color: #096b15 !important;
+}
+  #header .container-fluid .comunicados a {
+    color: #096b15;
+  }
+ #about .container-fluid .comunicados h3 {
+   margin-top: 100px;
+ }
+ #about .container-fluid .comunicados p {
+  font-size: 20px;
+}
+ .comunicados .container-fluid .nav-menu ul {
+  background: #f2f2f2;
+ }
+ #main .container-fluid .row a {
+   display: block;
+   background: #096b15;
+   font-style: bold;
+   font-size: 20px;
+   color: #fff;
+   margin: 0 30px;
+   border-radius: 50px;
+   padding: 5px;
+ }
+ #main .meses h3 {
+   margin-top: 50px;
+ }
