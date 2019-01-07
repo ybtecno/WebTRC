@@ -52,6 +52,13 @@ var urlsToCache = [
     './img/clients/client-6.png',
     './img/clients/client-7.png',
     './img/clients/client-8.png',
+    './img/comunicados/feliznavidad.jpg',
+    './img/comunicados/fiesta2018.jpg',
+    './img/comunicados/rugbyjuvenilpostemp2018.jpg',
+    './img/comunicados/rugbym14primera.jpg',
+    './img/comunicados/rugbysevendelplumazo2018.jpg',
+    './img/comunicados/sevendelaachila2018a.jpg',
+    './img/comunicados/sevendelachilata2018.jpg',
     
 ];
 
