@@ -79,6 +79,7 @@ body {
     padding: 20px 0;
     height: 72px;
     transition: all 0.5s;
+    
   }
   
   #header #logo {
@@ -153,6 +154,7 @@ body {
     right: 0;
     left: 0;
     bottom: 0;
+    
   }
   
   #intro .carousel-container {
