@@ -555,9 +555,21 @@ body {
   
   .section-header p {
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     color: #333;
   }
+
+  /* @media (min-width: 576px) {
+    .section-header .mobile {
+      display: none;
+    }
+  }
+
+  @media (max-width: 575px) {
+    .section-header .desktop {
+      display: none;
+    }
+  } */
   
   /* Section with background
   --------------------------------*/
@@ -625,7 +637,7 @@ body {
   #about {
     background: url("../img/about-bg.png") center top no-repeat fixed;
     background-size: cover;
-    padding: 60px 0 40px 0;
+    padding: 60px 0 10px 0;
     position: relative;
   }
   
@@ -1531,5 +1543,5 @@ body {
    padding: 5px;
  }
  #main .meses h3 {
-   margin-top: 50px;
+   margin-top: 10px;
  }
